@@ -19,7 +19,8 @@
     "nodemailer": "^6.4.10",
     "request": "^2.88.2",
     "restify": "^8.5.1",
-    "smtp-server": "^3.7.0"
+    "smtp-server": "^3.7.0",
+    "yargs": "^15.4.1"
   },
   "devDependencies": {
     "eslint": "^7.5.0"
@@ -27,7 +28,7 @@
   "scripts": {
     "build": "docker build -t mock-sendgrid .",
     "docker": "docker run -d --rm --name mock-sendgrid -p 5870:5870 -p 5871:5871 mock-sendgrid",
-    "lint": "eslint index.js lib/*.js",
-    "start": "forever ./index.js"
+    "lint": "eslint *.js lib/*.js",
+    "start": "forever ./cli.js"
   }
 }

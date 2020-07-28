@@ -2,9 +2,7 @@
 'use strict';
 
 const fs = require('fs');
-
-const args = process.argv.slice(2);
-const options = require('minimist')(args);
+const { argv: options } = require('yargs');
 
 const config = {};
 const configFile = options.config || options.c || './config.json';
