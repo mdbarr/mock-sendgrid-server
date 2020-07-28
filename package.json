@@ -1,6 +1,6 @@
 {
   "name": "@metastack/mock-sendgrid-server",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Mock Sendgrid SMTP and API Server",
   "main": "lib/sendgridServer.js",
   "repository": "git@github.com/mdbarr/mock-sendgrid-server.git",
