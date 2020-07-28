@@ -1,18 +1,18 @@
 {
-  "name": "mock-sendgrid-server",
+  "name": "@metastack/mock-sendgrid-server",
   "version": "0.3.0",
   "description": "Mock Sendgrid SMTP and API Server",
-  "main": "index.js",
+  "main": "lib/sendgridServer.js",
   "repository": "git@github.com/mdbarr/mock-sendgrid-server.git",
+  "author": "Mark Barr <mark@hyperingenuity.com>",
+  "license": "MIT",
+  "private": false,
   "keywords": [
     "mock",
     "sendgrid",
     "smtp",
     "api"
   ],
-  "author": "Mark Barr",
-  "license": "MIT",
-  "homepage": "https://github.com/mdbarr/mock-sendgrid-server#readme",
   "dependencies": {
     "async": "^3.2.0",
     "mailparser": "^2.8.0",
