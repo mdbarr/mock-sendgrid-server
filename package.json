@@ -27,7 +27,7 @@
     "eslint": "^7.5.0"
   },
   "scripts": {
-    "build": "docker build -t mock-sendgrid .",
+    "build": "docker build --pull -t mock-sendgrid .",
     "lint": "eslint *.js lib/*.js",
     "run:docker": "docker run -d --rm --name mock-sendgrid -p 5870:5870 -p 5871:5871 mock-sendgrid:latest",
     "start": "forever --minUptime=1000 --spinSleepTime=500 ./cli.js"
