@@ -11,7 +11,7 @@
     "api"
   ],
   "author": "Mark Barr",
-  "license": "ISC",
+  "license": "MIT",
   "homepage": "https://github.com/mdbarr/mock-sendgrid-server#readme",
   "dependencies": {
     "async": "^3.2.0",
