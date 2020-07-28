@@ -19,6 +19,7 @@
     "nodemailer": "^6.4.10",
     "request": "^2.88.2",
     "restify": "^8.5.1",
+    "restify-cors-middleware": "^1.1.1",
     "smtp-server": "^3.7.0",
     "yargs": "^15.4.1"
   },
