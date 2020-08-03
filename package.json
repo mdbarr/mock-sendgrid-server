@@ -1,5 +1,5 @@
 {
-  "name": "@metastack/mock-sendgrid-server",
+  "name": "@hyperingenuity/mock-sendgrid-server",
   "version": "0.4.0",
   "description": "Mock Sendgrid SMTP and API Server",
   "main": "lib/sendgridServer.js",
